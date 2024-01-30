@@ -1,12 +1,26 @@
-# Phase 3 Lecture - Object-Oriented Programming
+# Phase 3 Lecture 1: Object-Oriented Programming
 
-## To get started:
+## Objectives
 
-0. Shell into correct Python version
-1. Run `pipenv install` to install the dependencies for the project
-2. Run `pipenv shell` to enter into the project's virtual environment/shell
+By the end of today's lecture, you will be able to create a class with basic properties and methods. You will also be able to define instances of that class.
 
-## To run each file:
+## Lesson Plan
 
-1. Run `python src/classes/Cat.py` or `python3 src/classes/Cat.py`.
-2. Run `python src/classes/Dog.py` or `python3 src/classes/Dog.py`.
+0. Run `pipenv install` to install the dependencies and `pipenv shell` to enter the virtual environment.
+1. Define a class Cat.
+    - What is a **class**?
+2. Define a constructor for the Cat class to assign it attributes name, color, and age.
+    - What is a **constructor**? What is a **magic method**?
+    - What is an **attribute**?
+3. Define properties for these attributes.
+    - What is a **property**?
+    - What are the two ways to define a property?
+4. Define methods for each object to meow and have a birthday.
+    - What is an **instance method**?
+5. Define method to print each object.
+    - What is **overriding**?
+6. Repeat by defining a class Pup for more practice.
+
+## Looking Ahead
+
+Tomorrow's lecture will continue our work with object-oriented programming by expanding to discussing class attributes and class methods.
